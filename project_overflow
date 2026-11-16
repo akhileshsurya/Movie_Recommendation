@@ -1,0 +1,81 @@
+# 🎬 Movie Recommendation System
+
+A Machine Learning project that recommends similar movies based on movie descriptions, genres, keywords, actors and directors.
+
+## 📌 Project Overview
+
+This project uses Content-Based Filtering to recommend movies.
+
+It uses the TMDB 5000 Movie Dataset and Python Machine Learning libraries to identify movies with similar content.
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- TF-IDF Vectorization
+- Cosine Similarity
+- Streamlit
+
+## ⚙️ How It Works
+
+1. Load movie and credits datasets.
+2. Clean and preprocess the data.
+3. Extract genres, keywords, cast and directors.
+4. Combine information into movie tags.
+5. Apply TF-IDF Vectorization.
+6. Calculate Cosine Similarity.
+7. Recommend the top 5 similar movies.
+8. Display recommendations using Streamlit.
+
+## 📂 Project Structure
+
+```text
+Movie-Recommendation-System/
+├── dataset/
+├── models/
+├── Movie_Recommendation.ipynb
+├── train_model.py
+├── app.py
+├── requirements.txt
+└── README.md
+```
+
+## 📊 Dataset
+
+TMDB 5000 Movie Dataset:
+
+https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+
+Download these files:
+- tmdb_5000_movies.csv
+- tmdb_5000_credits.csv
+
+Place them inside the `dataset` folder.
+
+## 🚀 Installation
+
+Install the required libraries:
+
+```bash
+pip install pandas numpy scikit-learn streamlit joblib
+```
+
+## ▶️ Run the Application
+
+After creating the application and model files, run:
+
+```bash
+streamlit run app.py
+```
+
+## 🎯 Project Objective
+
+To build an interactive movie recommendation application using Machine Learning and Python.
+
+## 👨‍💻 Author
+
+Surya Akhilesh
+
+B.Tech – Artificial Intelligence and Machine Learning
